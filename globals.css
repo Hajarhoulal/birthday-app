@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    
+@apply bg-gradient-to-br from-pink-400 via-purple-400 to-indigo-400;
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 4s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+}
